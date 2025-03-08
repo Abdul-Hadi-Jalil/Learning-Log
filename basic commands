@@ -1,0 +1,5 @@
+django-admin startproject <project_name> .
+python manage.py runserver
+python manage.py startapp learning_logs
+python manage.py makemigrations learning_logs
+python manage.py createsuperuser
