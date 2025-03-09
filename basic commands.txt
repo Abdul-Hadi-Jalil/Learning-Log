@@ -3,3 +3,12 @@ python manage.py runserver
 python manage.py startapp learning_logs
 python manage.py makemigrations learning_logs
 python manage.py createsuperuser
+
+from learning_logs.models import Topic
+Topic.objects.all()
+topics = Topic.objects.all()
+for topic in topics:
+...print(topic.id, topic)
+t = Topic.objects.get(id=1)
+t.text
+t.date_added
