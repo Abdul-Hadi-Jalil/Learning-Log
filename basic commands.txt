@@ -12,3 +12,9 @@ for topic in topics:
 t = Topic.objects.get(id=1)
 t.text
 t.date_added
+
+pip install django-bootstrap3
+
+http://getbootstrap.com/;
+
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
