@@ -18,3 +18,8 @@ pip install django-bootstrap3
 http://getbootstrap.com/;
 
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+pip install dj-database-url
+pip install dj-static
+pip install static3
+pip install gunicorn
